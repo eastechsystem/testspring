@@ -1,8 +1,8 @@
 package com.ciklum.packagemanager.dao;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
+import java.util.Date;
+
+import org.springframework.stereotype.Repository;
 
 import com.ciklum.packagemanager.exception.DaoException;
 import com.ciklum.packagemanager.model.PackageInformation;
@@ -11,17 +11,23 @@ import com.ciklum.packagemanager.model.PackageInformation;
  * @author Jahanzaib Ali
  *
  */
+
+@Repository("packageInformationDao")
 public class PackageInformationDaoHibernateImpl implements PackageInformationDao {
 
-	@Autowired
-	private SessionFactory sessionFactory;
-
 	@Override
-	public PackageInformation getPackageInformationById(Integer packageInformationId) throws DaoException {
-		Session session = null;
+	public PackageInformation getPackageInformationById(Integer packageInfoId) throws DaoException {
 		try {
-			session = sessionFactory.getCurrentSession();
-			PackageInformation profile = (PackageInformation) session.get(PackageInformation.class, packageInformationId);
+			PackageInformation profile = new PackageInformation();
+			
+			profile.setId(1);
+			profile.setName("Profile Info 1");
+			profile.setActive(true);
+			profile.setDuration(5);
+			profile.setPrice(100);
+			profile.setCreateDateTime(new Date());
+			profile.setModifiedDateTime(new Date());
+
 			return profile;
 
 		} catch (Exception e) {

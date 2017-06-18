@@ -138,54 +138,8 @@
 			<artifactId>logback-classic</artifactId>
 			<version>${logback.version}</version>
 		</dependency>
-		
-		<!-- EJB APIs Start -->
-		<dependency>
-			<groupId>javax.ejb</groupId>
-			<artifactId>ejb-api</artifactId>
-			<scope>provided</scope>
-			<version>3.0</version>
-		</dependency>
-		<!-- EJB APIs Ends -->
-		
-		<!-- Spec EJB APIs Start -->
-		<dependency>
-			<groupId>org.jboss.spec.javax.ejb</groupId>
-			<artifactId>jboss-ejb-api_3.1_spec</artifactId>
-			<version>1.0.1.Final</version>
-		</dependency>
-		<!-- Spec EJB APIs End -->
-		
-		<!-- JEE 7 API Start -->
-		<dependency>
-			<groupId>javax</groupId>
-			<artifactId>javaee-api</artifactId>
-			<version>7.0</version>
-			<scope>provided</scope>
-		</dependency>
-		<!-- JEE 7 API End -->
-		
-		<!-- Wildfly Client BOM + EJB Specs + APIs Start -->
-		<dependency>
-			<groupId>org.jboss.spec.javax.ejb</groupId>
-			<artifactId>jboss-ejb-api_3.1_spec</artifactId>
-			<version>1.0.1.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>org.wildfly</groupId>
-			<artifactId>wildfly-jms-client-bom</artifactId>
-			<type>pom</type>
-			<version>9.0.1.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>org.wildfly</groupId>
-			<artifactId>wildfly-ejb-client-bom</artifactId>
-			<type>pom</type>
-			<version>9.0.1.Final</version>
-		</dependency>
-		<!-- Wildfly Client BOM + EJB Specs + APIs End -->
-		
 	</dependencies>
+	
 	<build>
 		<finalName>testspring</finalName>
 
