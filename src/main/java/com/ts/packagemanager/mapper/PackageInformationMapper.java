@@ -18,7 +18,7 @@ import com.ts.packagemanager.util.JsonUtil;
 import com.ts.packagemanager.util.Util;
 
 /**
- * This mapper handles mapping from json to PackageInformationMapper object and voice versa
+ * This mapper handles mapping from json to PackageInformation object and voice versa
  * 
  * @author Jahanzaib Ali
  * @since June 19, 2017

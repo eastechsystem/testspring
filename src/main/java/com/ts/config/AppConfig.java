@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
- * This class is providing database configurations.  
+ * This class is providing database configurations using hibernate4.  
  * @author Jahanzaib Ali
  * @since June 19, 2017
  *
