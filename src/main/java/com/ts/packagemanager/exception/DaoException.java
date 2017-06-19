@@ -4,7 +4,7 @@ package com.ts.packagemanager.exception;
  * The DaoException class represents error during database interaction.
  * 
  * @author Jahanzaib Ali
- * @since June 16, 2017
+ * @since June 19, 2017
  */
 public class DaoException extends RuntimeException {
 

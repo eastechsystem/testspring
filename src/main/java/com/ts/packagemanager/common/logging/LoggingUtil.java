@@ -5,6 +5,12 @@ import java.util.logging.LogManager;
 
 import com.ts.packagemanager.exception.DaoException;
 
+/**
+ * The LoggingUtil class provides the logger utility operations.
+ * 
+ * @author Jahanzaib Ali
+ * @since May 16, 2016
+ */
 
 public class LoggingUtil {
 

@@ -11,8 +11,8 @@ import com.ts.packagemanager.util.Util;
  * layer in the application. This class should be extended by exception classes
  * specific to each layer.
  * 
- * @author Abdur Rahman Khalil
- * @since Nov 24, 2011
+ * @author Jahanzaib Ali
+ * @since June 19, 2017
  * 
  */
 public class ApplicationException extends RuntimeException implements Serializable {

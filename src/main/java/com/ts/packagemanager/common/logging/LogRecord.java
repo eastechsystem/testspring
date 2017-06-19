@@ -7,7 +7,7 @@ import java.util.List;
  * The LogRecord class is used to hold log information.
  * 
  * @author Jahanzaib Ali
- * @since June 16, 2017
+ * @since May 19, 2016
  */
 public class LogRecord extends java.util.logging.LogRecord {
 

@@ -4,7 +4,7 @@ package com.ts.packagemanager.common.logging;
  * The LogRecordProperty class holds additional information for the log record.
  * 
  * @author Jahanzaib Ali
- * @since June 16, 2017
+ * @since May 16, 2016
  */
 public class LogRecordProperty {
 

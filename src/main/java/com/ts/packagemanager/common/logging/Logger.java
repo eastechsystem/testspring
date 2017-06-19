@@ -4,7 +4,7 @@ package com.ts.packagemanager.common.logging;
  * The Logger interface provides the logger services.
  * 
  * @author Jahanzaib Ali
- * @since June 16, 2017
+ *  @since May 16, 2016
  */
 public interface Logger {
 

@@ -6,7 +6,7 @@ import java.util.Arrays;
  * The LoggerImpl class provides the logger services.
  * 
  * @author Jahanzaib Ali
- * @since June 16, 2017
+ * @since May 16, 2016
  */
 public class LoggerImpl implements Logger {
 
